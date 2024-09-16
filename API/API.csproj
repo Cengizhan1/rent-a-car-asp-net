@@ -11,6 +11,7 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="MyCorePackage.Application" Version="1.0.0" />
     <PackageReference Include="Serilog" Version="4.0.2-dev-02226" />
     <PackageReference Include="Serilog.Sinks.File" Version="6.0.0" />
     <PackageReference Include="Serilog.Sinks.MSSqlServer" Version="7.0.0" />
@@ -20,18 +21,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Persistance\Persistance.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Reference Include="Core.Application">
-      <HintPath>..\..\CorePackages\Core.Packages\Core.Application\bin\Debug\net8.0\Core.Application.dll</HintPath>
-    </Reference>
-    <Reference Include="Core.CrossCuttingConcerns">
-      <HintPath>..\..\CorePackages\Core.Packages\Core.CrossCuttingConcerns\bin\Debug\net8.0\Core.CrossCuttingConcerns.dll</HintPath>
-    </Reference>
-    <Reference Include="Core.Persistance">
-      <HintPath>..\..\CorePackages\Core.Packages\Core.Persistance\bin\Debug\net8.0\Core.Persistance.dll</HintPath>
-    </Reference>
   </ItemGroup>
 
   <ItemGroup>

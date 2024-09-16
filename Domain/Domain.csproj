@@ -7,9 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Reference Include="Core.Persistance">
-      <HintPath>..\..\CorePackages\Core.Packages\Core.Persistance\bin\Debug\net8.0\Core.Persistance.dll</HintPath>
-    </Reference>
+    <PackageReference Include="MyCorePackage.Persistance" Version="1.0.0" />
   </ItemGroup>
 
 </Project>
